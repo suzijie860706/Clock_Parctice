@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Clock pratice.exe" version="1.0.0.0" publicKeyToken="f1833ab5d66f2baa" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Clock pratice" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Clock pratice.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+         如需變更 Windows 使用者帳戶控制層級，
+         請以下列其中一個項目取代 requestedExecutionLevel 節點。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        如需利用回溯相容性的檔案及登錄模擬，
+        請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Clock pratice.exe" size="105432">
+      <assemblyIdentity name="Clock pratice" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gZf4YofksX5A9je+Id6RzeO5jME0P+wbC9TmjwB19P8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Clock pratice.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wDmrlTz6aNIp269ZO0+f+NuBph+l7PSF+/aeuhX4N/I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-GUGJQQV\Jack" issuerKeyHash="11a9218ed88e263651a808c972dc1e914ba6f44f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RNM3GCb1WTCvRppiCoRhv+JdsoBFJgJVIpBfn/ofPLs=</DigestValue></Reference></SignedInfo><SignatureValue>vnBjIQ6NtKwwJty7hz1GX6S52EGIId1FU41SrODNOM8Y0IyDFAtizxC9bEV8aisaUTj0bhqPW5kRDaGZjeyCalIkJlsnkFs6xKA3FzBAQQ2iYOUpZAM4iVm7ERE8ymjtkJ5aFvMH2xgTwYx00Cgq3f1vPMDgLSNgDz+HLidfElc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>37/HlNv06i8cWy7+yc2e1Qx2Y3szij62JRM+ao8+fMgMsuiUPKLAOcXRxImFnxFAUuqyq5UC8BVWqth/+qhigcEZssxREgua4ydrL1CAS7/Gs74YsxhEkUqgRT0BtEA9zZN3vOLjPL7P2uUaD1Z5cDYRkrcISFi5+pIRtx9X34E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bb3c1ffa9f5f90225502264580b25de2bf61840a629a46af3059f5261837d344" Description="" Url=""><as:assemblyIdentity name="Clock pratice.exe" version="1.0.0.0" publicKeyToken="f1833ab5d66f2baa" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-GUGJQQV\Jack</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CaFWxuh8WR2jYkPG3rIbHmX9J6soGNhAbUqfmLsGQSc=</DigestValue></Reference></SignedInfo><SignatureValue>xtxKpRw7z5HW8FcQ8dYUAjd5wZjacXSv+a/MMucmJ2SwSlIyt+8Ea7rPltxMWX/+Oq22/1y9AmD22aO32UKVKU652BaEVbUfsCBF++WX/gJ90EobZaKJmm+0iBg0SWAt6x9HoT665oEmRUus4Wnit8znKBZLkQCvBY2ugp7PSGg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>37/HlNv06i8cWy7+yc2e1Qx2Y3szij62JRM+ao8+fMgMsuiUPKLAOcXRxImFnxFAUuqyq5UC8BVWqth/+qhigcEZssxREgua4ydrL1CAS7/Gs74YsxhEkUqgRT0BtEA9zZN3vOLjPL7P2uUaD1Z5cDYRkrcISFi5+pIRtx9X34E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQbEURJGCSgLpLmdx9Nw1vCzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEcAVQBHAEoAUQBRAFYAXABKAGEAYwBrMB4XDTE5MDcyNjEyNDUxNloXDTIwMDcyNTE4NDUxNlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBHAFUARwBKAFEAUQBWAFwASgBhAGMAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA37/HlNv06i8cWy7+yc2e1Qx2Y3szij62JRM+ao8+fMgMsuiUPKLAOcXRxImFnxFAUuqyq5UC8BVWqth/+qhigcEZssxREgua4ydrL1CAS7/Gs74YsxhEkUqgRT0BtEA9zZN3vOLjPL7P2uUaD1Z5cDYRkrcISFi5+pIRtx9X34ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQC8xE8WmDwWOw+aL66S8PgQ6bfmWrutc6QK17U2SLugf5c5Koio1i3azHsLIYUjFHNrLUmN7wF1bUemAYUDv/nN65QiPVmrkztgfvLaF7mrLU81fDE1fvk0hZ37WkskaM0rHkztKp6OVHFuBRLcxcveP7K175l8upXxGKvEGQYbeQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

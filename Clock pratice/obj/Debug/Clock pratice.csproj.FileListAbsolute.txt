@@ -1,0 +1,16 @@
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\bin\Debug\Clock pratice.exe.config
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\bin\Debug\Clock pratice.exe
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\bin\Debug\Clock pratice.pdb
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Clock pratice.csprojAssemblyReference.cache
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Clock_pratice.Form1.resources
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Clock_pratice.Properties.Resources.resources
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Clock pratice.csproj.GenerateResource.cache
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Clock pratice.csproj.CoreCompileInputs.cache
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Clock pratice.exe
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Clock pratice.pdb
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\bin\Debug\Clock pratice.exe.manifest
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\bin\Debug\Clock pratice.application
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Clock pratice.exe.manifest
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Clock pratice.application
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Interop.WMPLib.dll
+C:\Users\Zijie\source\repos\Clock pratice\Clock pratice\obj\Debug\Clock pratice.csproj.ResolveComReference.cache
